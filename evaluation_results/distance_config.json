@@ -1,0 +1,29 @@
+{
+  "focal_length_px": 700.0,
+  "fire_width_ref_m": 0.5,
+  "smoke_width_ref_m": 1.5,
+  "pressure_zones": {
+    "CRITICAL": [
+      0.0,
+      1.5
+    ],
+    "NEAR": [
+      1.5,
+      3.0
+    ],
+    "MEDIUM": [
+      3.0,
+      6.0
+    ],
+    "FAR": [
+      6.0,
+      10.0
+    ],
+    "OUT_OF_RANGE": [
+      10.0,
+      Infinity
+    ]
+  },
+  "method": "fused (apparent_size + midas_depth)",
+  "accuracy_note": "~\u00b110% fused, ~\u00b115% apparent-only"
+}

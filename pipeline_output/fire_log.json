@@ -1,0 +1,16 @@
+[
+  {
+    "time": "2026-03-13T09:18:29.852841",
+    "alert_id": 1,
+    "distance_m": 0.88,
+    "zone": "CRITICAL",
+    "pump_pressure": 0.912
+  },
+  {
+    "time": "2026-03-13T09:18:34.876289",
+    "alert_id": 2,
+    "distance_m": 2.44,
+    "zone": "NEAR",
+    "pump_pressure": 0.756
+  }
+]
